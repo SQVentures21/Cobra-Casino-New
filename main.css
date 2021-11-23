@@ -71,6 +71,12 @@ body {
 
 }
 
+.logo-cobra , .logo-buton
+{
+    display:none;
+  
+}
+
 
 .hero
 {
@@ -461,7 +467,7 @@ height:44px;
     }
     .background-mobil
                 {
-                    background-image:url(assets/mobile-new/hero-banner_mobile_new.webp);
+                    background-image:url(assets/mobile-new/hero-banner_mobile_new_2.webp);
                     background-repeat:no-repeat;
                     background-repeat: no-repeat;
                     background-position: top center;
@@ -608,7 +614,29 @@ height:44px;
         padding:2rem 2rem 1rem 3rem;
     }
 
+
+    .logo-cobra
+    {
+        display: block;
+        z-index: 1; 
+        position: fixed;
+        top:30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .logo-buton
+    {
+        display: block;
+        z-index: 1; 
+        position: fixed;
+        top:17%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 }
+
 @media only screen and (max-width: 500px)
 {
  .absolute
