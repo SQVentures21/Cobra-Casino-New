@@ -619,7 +619,7 @@ height:44px;
     {
         display: block;
         z-index: 1; 
-        position: fixed;
+        position: absolute;
         top:30px;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -629,8 +629,8 @@ height:44px;
     {
         display: block;
         z-index: 1; 
-        position: fixed;
-        top:17%;
+        position: absolute;
+        top:18.5%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
