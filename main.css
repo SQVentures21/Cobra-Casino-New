@@ -176,7 +176,7 @@ h1
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap:200px;
+    gap:166px;
     margin-bottom: 0.8rem;
     margin-top:7px;
 }
@@ -326,6 +326,10 @@ height:44px;
         padding: 3rem;
         color: white;
         font-size: 10px;
+        line-height: 14px;
+        font-family: "Roboto";
+        font-weight: 400;
+
 
     }
 
@@ -384,7 +388,7 @@ height:44px;
     .flag-image
 
     {
-        right:-100px!;
+        right: -100px!important;;
     }
 }
 
@@ -405,6 +409,11 @@ height:44px;
                     min-height:600px ;
                     
                 }
+
+    .cards
+    {
+        gap:20px;
+    }
 }
 
 
@@ -479,7 +488,7 @@ height:44px;
     .cards
     {
         flex-direction: column;
-        gap: 0rem !important;
+       
         
     }
 
@@ -489,10 +498,9 @@ height:44px;
 
     .card
     {
-        width:280px;
+        width:290px;
         flex-direction: column;
         padding-left: 20%;
-        width:max(280px,300px);
         height: 98px;
         
     }
@@ -605,7 +613,7 @@ height:44px;
 {
  .absolute
     {
-        top:20px;
+        
         left:-136px;
         
     }
