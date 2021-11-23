@@ -630,7 +630,7 @@ height:44px;
         display: block;
         z-index: 1; 
         position: absolute;
-        top:18.5%;
+        top:19%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
